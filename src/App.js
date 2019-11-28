@@ -12,7 +12,8 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<header className="App-header">
-					<h1>Guess the Number</h1>
+					<h2>Guess the Number</h2>
+					<div className="wrapper">
                     <input type="button" 
 						   disabled={this.state.disabled} 
 						   value={'To Generate a Random Number'} />
@@ -21,7 +22,8 @@ class App extends React.Component {
 					<input type="button"
 						   disabled={this.state.disabled}
 						   value={'Check your number'} />
-
+					</div>
+					<div className="Display"></div>
 				</header>
 			</div>
 		);
