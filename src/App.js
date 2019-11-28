@@ -23,7 +23,7 @@ class App extends React.Component {
 						   disabled={this.state.disabled}
 						   value={'Check your number'} />
 					</div>
-					<div className="Display"></div>
+					<div className="Display">result guess</div>
 				</header>
 			</div>
 		);
